@@ -1,0 +1,42 @@
+nav{
+	display: flex;
+	background-color: #333;
+}
+
+nav a{
+	color: white;
+	text-decoration: none;
+	padding: 14px 20px;
+	
+}
+
+nav a:hover{
+	color: white;
+	text-decoration: none;
+}
+
+a.heading{
+	font-size: 20px;
+}
+
+a.heading:hover{
+	transform: scale(1.1);
+	transition: 0.3s;
+}
+
+.flex-align-left{
+	margin-top: 15px;
+	margin-left: auto;
+}
+
+.flex-align-left a:hover{
+	transition: 0.3s;
+	background-color: #f5cb42;
+	border-radius: 15px;
+}
+
+@media screen and (max-width: 700px){
+	nav{
+		flex-direction: column;
+	}
+}
